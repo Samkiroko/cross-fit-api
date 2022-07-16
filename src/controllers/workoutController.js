@@ -1,4 +1,4 @@
-const getAllWorkout = (req, res) => {
+const getAllWorkouts = (req, res) => {
     res.send("Get all workout")
 }
 
@@ -19,7 +19,7 @@ const deleteOneWorkout = (req, res) => {
 }
 
 module.exports = {
-    getAllWorkout,
+    getAllWorkouts,
     getOneWorkout,
     createNewWorkout,
     updateOneWorkout,
